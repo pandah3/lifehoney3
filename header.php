@@ -8,6 +8,9 @@
   </head>
   <body>
 
+    <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
+    <!-- prints nav menu on site; => is PHP syntax -->
+
   <!--
   Don't have to close
 </body> & </html> tags
